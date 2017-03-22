@@ -1,0 +1,320 @@
+#html.container {
+	max-width: 800px;
+	margin: 0px auto;
+	font-family: coustardFontFamily;
+}
+
+@font-face {
+    font-family: coustardFontFamily;
+    src: url(Coustard-Regular.ttf);
+}
+
+h3.videoTitle{
+	font-size: 25;
+}
+
+a:link {
+    color: #000000;
+}
+/* visited link */
+a:visited {
+   color: #5F5F5F;
+}
+/* mouse over link */
+a:hover {
+    color: #5F5F5F;
+}
+/* selected link */
+a:active {
+    color: #5F5F5F;
+}
+
+input.search {
+    border: 1px solid grey; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 5px 5px 5px 5px;
+	float: left;
+}
+
+input.loginLogoutRegister {
+    border: 1px solid grey; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 2px 2px 2px 2px;
+	#float: left;
+}
+
+input.loginLogoutRegisterFW {
+	width: 130px;
+    border: 1px solid grey; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 2px 2px 2px 2px;
+	#float: left;
+}
+
+input.registrationForm {
+	width: 300px;
+    border: 1px solid grey; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 5px 5px 5px 5px;
+	#float: left;
+}
+
+textarea.registrationForm {
+	width: 300px;
+    border: 1px solid grey; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 5px 5px 5px 5px;
+	#float: left;
+}
+
+textarea.commentForm {
+	width: 790px;
+    border: 1px solid grey; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 5px 5px 5px 5px;
+	#float: left;
+}
+
+img.avatar{
+	border: 1px solid grey; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 0px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 5px 0;
+	background-size: auto;
+	float: right;
+}
+
+#body.logoAndSearch {
+	font-size: 19;
+	width: 398px;
+	height: 150px;
+	text-align: center;
+	float: left;
+	#border: dashed 3px;
+	#border: solid 3px grey;
+	#margin: 2px 2px;
+}
+
+#body.comment {
+	#background-color: #B8B894;
+	font-size: 19;
+	#width: 795px;
+	height: 120px;
+	text-align: left;
+	#float: left;
+	border: solid 1px grey;
+	margin: 3px 3px;
+}
+
+#body.loginOrUser {
+	font-size: 19;
+	width: 398px;
+	#height: 150px;
+	text-align: right;
+	float: right;
+	#border: dashed 3px;
+	#border: solid 3px grey;
+	margin: 20px 2px;
+}
+
+
+#body.top {
+	font-size: 19;
+	#max-width: 400px;
+	width: 800px;
+	text-align: center;
+	float: left;
+	#border: dashed 3px;
+	border: solid 3px grey;
+	margin: 2px 2px;
+}
+
+#body.center {
+	font-size: 20;
+	#max-width: 200px;
+	width: 800px;
+	#height: 200px;
+	text-align: center;
+	float: left;
+	#border: dashed 3px;
+	#border: solid 3px grey;
+	margin: 2px 2px;
+}
+
+#body.mediaCenter {
+	font-size: 20;
+	#max-width: 200px;
+	width: 800px;
+	#height: 200px;
+	text-align: left;
+	float: left;
+	#border: dashed 3px;
+	#border: solid 3px grey;
+	margin: 2px 2px;
+}
+
+#body.textContent{
+	font-size: 20;
+	#max-width: 200px;
+	width: 791px;
+	#height: 200px;
+	text-align: left;
+	float: left;
+	#border: dashed 3px;
+	border: solid 3px grey;
+	margin: 2px 2px;
+}
+
+#body.regCenter {
+	font-size: 20;
+	#max-width: 200px;
+	width: 800px;
+	#height: 200px;
+	text-align: left;
+	float: left;
+	#border: dashed 3px;
+	border: solid 0px grey;
+	margin: 2px 2px;
+}
+
+#body.mediaItem {
+	font-size: 20;
+	#max-width: 200px;
+	width: 250px;
+	height: 162px;
+	#height: 250px;
+	text-align: center;
+	float: left;
+	#border: dashed 3px;
+	border: solid 3px grey;
+	margin: 5px 5px 5px 5px;
+}
+
+#body.mediaItemData {
+	font-size: 20;
+	text-align: left;
+	margin: 2px 2px;
+}
+
+#body.userInfo {
+	font-size: 20;
+	text-align: right;
+	width: 240px;
+	height: 111px;
+	text-align: left;
+	float: left;
+	#border: dashed 3px;
+	#border: solid 3px grey;
+	margin: 2px 2px;
+}
+
+#body.userFunctions {
+	font-size: 20;
+	text-align: right;
+	width: 135px;
+	height: 111px;
+	text-align: right;
+	float: right;
+	#border: dashed 3px;
+	#border: solid 3px grey;
+	margin: 2px 2px;
+}
+
+#img.textWrap{
+	border: solid 1px grey;
+	float: left;
+	margin: 5;
+	margin: 2px 2px;
+}
+
+#img.textWrapRight{
+	border: solid 1px grey;
+	float: right;
+	margin: 5;
+	margin: 2px 2px;
+}
+
+#player {
+	width: 100%;
+}​
+
+#html.footer {
+	float: left;
+	width: 610px;
+	text-align: center;
+	color: gray;
+	#border: dashed 1px;
+	border: solid 3px grey;
+	#max-width: 600px;
+	#position:absolute;
+	#bottom:0;
+}
